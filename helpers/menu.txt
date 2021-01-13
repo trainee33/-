@@ -1,0 +1,17 @@
+<div class="menu">
+    <div class="menu__icon icon-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <nav class="menu__body">
+        <ul class="menu__list">
+            <li><a href="" class="menu__link">Бренды</a></li>
+            <li><a href="" class="menu__link">Распродажа</a></li>
+            <li><a href="" class="menu__link">Доставка и Сборка</a></li>
+            <li><a href="" class="menu__link">Гарантия</a></li>
+            <li><a href="" class="menu__link">Оплата</a></li>
+            <li><a href="" class="menu__link">Контакты</a></li>
+        </ul>
+    </nav>
+</div>

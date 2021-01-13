@@ -1,0 +1,32 @@
+.breadcrums {
+	font-family: 'Roboto';
+	overflow: auto;
+	margin-bottom: 25px;
+	// .breadcrums__list
+	&__list {
+		display: flex;
+		align-items: center;
+		white-space: nowrap;
+		li {
+			font-size: 14px;
+			margin-right: 10px;
+			padding-right: 20px;
+			background: url('../img/catalog/arrow-filter.png') right no-repeat;
+			&:last-child {
+				margin: 0;
+				background: none;
+			}
+		}
+	}
+
+	// .breadcrums__link
+	&__link {
+		color: #1ab9ce;
+		text-decoration: underline;
+	}
+
+	// .breadcrums__item
+	&__item {
+		color: #d9d9d9;
+	}
+}
